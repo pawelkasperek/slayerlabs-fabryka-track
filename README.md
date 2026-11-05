@@ -4,6 +4,13 @@ A minimal training studio: mix text datasets with sliders, run a tiny transforme
 smoke test, and watch real metrics. Includes experiment tracking, run comparison,
 logs, checkpoints, and notes.
 
+## Change workflow
+
+Use [Spec-flow](docs/spec-flow.md) to manage behavioral changes:
+specification → approved plan → tasks → implementation → verification.
+Copy the [change templates](specs/_templates/) into a dated directory under `specs/`.
+The workflow is repository-local, adds no dependencies, and does not provision or deploy anything.
+
 ## Leaderboard: datasets and benchmarks
 
 **[Start here: all leaderboard datasets, runners and scoring protocols](docs/leaderboard-benchmarks.md).**
